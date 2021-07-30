@@ -1,0 +1,2 @@
+SELECT *
+  FROM "DKU_PREDICTIVE_MAINTENANCE_maintenance_part_consumption_by_reason"
