@@ -7,19 +7,21 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
-        {
-          "ref": "maintenance_failures",
-          "deps": []
-        },
         {
           "ref": "usage_data_by_Asset_prepared",
           "deps": []
         },
         {
           "ref": "maintenance_part_consumption_by_Reason",
+          "deps": []
+        },
+        {
+          "ref": "maintenance_failures_copy",
           "deps": []
         }
       ]
@@ -35,14 +37,16 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519399730680
+    "lastModifiedOn": 1627664568358
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
