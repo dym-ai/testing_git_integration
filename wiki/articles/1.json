@@ -1,0 +1,23 @@
+{
+    "layout": "WIKI_ARTICLE", 
+    "attachments": [], 
+    "versionTag": {
+        "lastModifiedBy": {
+            "login": "admin"
+        }, 
+        "lastModifiedOn": 1536330414962, 
+        "versionNumber": 1
+    }, 
+    "tags": [], 
+    "creationTag": {
+        "lastModifiedBy": {
+            "login": "admin"
+        }, 
+        "lastModifiedOn": 1536330190585, 
+        "versionNumber": 0
+    }, 
+    "checklists": {
+        "checklists": []
+    }, 
+    "name": "Predictive maintenance"
+}

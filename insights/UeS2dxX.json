@@ -1,0 +1,30 @@
+{
+  "type": "metrics",
+  "params": {
+    "objectSmartId": "Assets_at_risk",
+    "objectType": "DATASET",
+    "metricId": "records:COUNT_RECORDS"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Record count of Assets_at_risk",
+  "dashboardCreationId": "GGF9nHC",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486147248922
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486147248922
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

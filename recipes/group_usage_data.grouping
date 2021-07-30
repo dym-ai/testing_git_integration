@@ -1,0 +1,107 @@
+{
+  "outputColumnNameOverrides": {},
+  "values": [
+    {
+      "min": true,
+      "max": false,
+      "count": false,
+      "last": false,
+      "sum": false,
+      "type": "int",
+      "concat": false,
+      "column": "Time",
+      "countDistinct": false,
+      "stddev": false,
+      "avg": false,
+      "$idx": 0,
+      "first": false
+    },
+    {
+      "min": true,
+      "max": true,
+      "count": false,
+      "last": false,
+      "sum": false,
+      "type": "double",
+      "concat": false,
+      "column": "Use",
+      "countDistinct": false,
+      "stddev": false,
+      "avg": false,
+      "$idx": 1,
+      "first": false
+    }
+  ],
+  "engineParams": {
+    "impala": {
+      "forceStreamMode": false
+    },
+    "sparkSQL": {
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "overwriteOutputSchema": true,
+      "readParams": {
+        "map": {}
+      }
+    }
+  },
+  "keys": [
+    {
+      "min": false,
+      "max": false,
+      "last": false,
+      "count": false,
+      "column": "Asset",
+      "sum": false,
+      "countDistinct": false,
+      "stddev": false,
+      "avg": false,
+      "type": "string",
+      "first": false,
+      "concat": false
+    }
+  ],
+  "postFilter": {
+    "enabled": false,
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "maxLength": -1,
+            "timestampNoTzAsDate": false,
+            "name": "Asset",
+            "type": "string"
+          },
+          {
+            "maxLength": -1,
+            "timestampNoTzAsDate": false,
+            "name": "Time_min",
+            "type": "int"
+          },
+          {
+            "maxLength": -1,
+            "timestampNoTzAsDate": false,
+            "name": "Use_min",
+            "type": "double"
+          },
+          {
+            "maxLength": -1,
+            "timestampNoTzAsDate": false,
+            "name": "Use_max",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false
+  },
+  "computedColumns": [],
+  "globalCount": false,
+  "preFilter": {
+    "enabled": false,
+    "distinct": false
+  }
+}

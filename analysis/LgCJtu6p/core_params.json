@@ -1,0 +1,96 @@
+{
+  "inputDatasetSmartName": "Asset_modelisation_table",
+  "script": {
+    "steps": [
+      {
+        "type": "FillEmptyWithValue",
+        "params": {
+          "value": "0",
+          "appliesTo": "PATTERN",
+          "columns": [
+            "R575_Quantity_sum"
+          ],
+          "appliesToPattern": "^R.*_Quantity_sum$"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "CreateColumnWithGREL",
+        "params": {
+          "column": "Quantity_sum",
+          "expression": "R044_Quantity_sum+R064_Quantity_sum+R119_Quantity_sum+R193_Quantity_sum+R364_Quantity_sum+R396_Quantity_sum+R417_Quantity_sum+R446_Quantity_sum+R565_Quantity_sum+R575_Quantity_sum+R606_Quantity_sum+R707_Quantity_sum+R782_Quantity_sum+R783_Quantity_sum"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": [],
+  "name": "Predict failure",
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1519400672587
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1519400038640
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

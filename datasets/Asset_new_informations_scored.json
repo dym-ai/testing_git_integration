@@ -1,0 +1,194 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": false,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1519404999744
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486149544101
+  },
+  "tags": [
+    "creator_admin"
+  ],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "/DKU_PREDICTIVE_MAINTENANCE.Asset_new_informations_scored",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Asset",
+        "type": "string"
+      },
+      {
+        "name": "R417_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R707_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R193_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R565_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R783_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R364_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R446_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R119_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R044_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R575_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R606_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R064_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R396_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R782_Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "Quantity_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "Time_begin_exploitation",
+        "type": "bigint"
+      },
+      {
+        "name": "Initial_km",
+        "type": "double"
+      },
+      {
+        "name": "nb_km",
+        "type": "double"
+      },
+      {
+        "name": "proba_0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": []
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

@@ -1,0 +1,123 @@
+{
+  "charts": [
+    {
+      "def": {
+        "axis1LogScale": false, 
+        "axis2LogScale": false, 
+        "boxplotBreakdownDim": [], 
+        "boxplotValue": [], 
+        "bubblesOptions": {
+          "defaultRadius": 5.0
+        }, 
+        "colorMeasure": [], 
+        "colorOptions": {
+          "ccScaleMode": "NORMAL", 
+          "colorPalette": "default", 
+          "singleColor": "#659a88", 
+          "transparency": 0.75
+        }, 
+        "disableSafetyLimits": false, 
+        "filters": [], 
+        "genericDimension0": [
+          {
+            "column": "nb_km", 
+            "filters": [], 
+            "generateOthersCategory": true, 
+            "isA": "dimension", 
+            "maxValues": 100, 
+            "numParams": {
+              "binSize": 100, 
+              "emptyBinsMode": "ZEROS", 
+              "mode": "FIXED_NB", 
+              "nbBins": 10
+            }, 
+            "oneTickPerBin": false, 
+            "sort": {
+              "label": "Natural ordering", 
+              "sortAscending": true, 
+              "type": "NATURAL"
+            }, 
+            "type": "NUMERICAL"
+          }
+        ], 
+        "genericDimension1": [], 
+        "genericMeasures": [
+          {
+            "computeMode": "NORMAL", 
+            "displayAxis": "axis1", 
+            "displayType": "column", 
+            "displayed": true, 
+            "function": "COUNT", 
+            "isA": "measure", 
+            "type": "NUMERICAL"
+          }
+        ], 
+        "geometry": [], 
+        "groupDimension": [], 
+        "hexbinRadius": 20, 
+        "includeZero": true, 
+        "mapGridOptions": {
+          "gridLatDeg": 0.6, 
+          "gridLonDeg": 0.6
+        }, 
+        "mapOptions": {
+          "lockSquareGrid": false, 
+          "tilesLayer": "mapquest-std"
+        }, 
+        "name": "Count by nb_km", 
+        "showLegend": true, 
+        "sizeMeasure": [], 
+        "smoothing": false, 
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAkElEQVRoQ+3ToRGAQAwEwKcSasHTDzXQD55a6ASFQGXijmHfJuKSz07jZ2/6+rzzdpzPDNe+LtU8Bq42lFb3w8WPOOm0k63yOGkn/d4Aw5WZtDrDDDOcprKXh2GGGe6ZSetmmGGG01T28jDMMMM9M2ndDDPMcJrKXh6GGWa4Zyatm2GGGU5T2cvzO8O99YxxAz7CmCkhlCApAAAAAElFTkSuQmCC", 
+        "tooltipMeasures": [], 
+        "type": "grouped_columns", 
+        "uaColor": [], 
+        "uaSize": [], 
+        "uaTooltip": [], 
+        "uaXDimension": [], 
+        "uaYDimension": [], 
+        "useLiveProcessingIfAvailable": true, 
+        "userEditedName": false, 
+        "variant": "normal", 
+        "xDimension": [], 
+        "xMeasure": [], 
+        "yDimension": [], 
+        "yMeasure": []
+      }, 
+      "refreshableSelection": {
+        "_refreshTrigger": 0, 
+        "autoRefreshSample": false, 
+        "selection": {
+          "maxRecords": 30000, 
+          "partitionSelectionMethod": "ALL", 
+          "samplingMethod": "HEAD_SEQUENTIAL", 
+          "targetRatio": 0.02
+        }
+      }
+    }
+  ], 
+  "script": {
+    "charts": [], 
+    "chartsEngine": "LINO", 
+    "explorationFilters": [], 
+    "explorationSampling": {
+      "_refreshTrigger": 0, 
+      "autoRefreshSample": false, 
+      "selection": {
+        "maxRecords": 30000, 
+        "partitionSelectionMethod": "ALL", 
+        "samplingMethod": "HEAD_SEQUENTIAL", 
+        "targetRatio": 0.02
+      }
+    }, 
+    "exploreUIParams": {
+      "autoRefresh": true
+    }, 
+    "steps": [], 
+    "tags": [], 
+    "vizSampling": {
+      "_refreshTrigger": 0, 
+      "autoRefreshSample": false
+    }
+  }
+}

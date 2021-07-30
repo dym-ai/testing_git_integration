@@ -1,0 +1,57 @@
+{
+  "checklists": {
+    "checklists": []
+  }, 
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    }, 
+    "lastModifiedOn": 1519404144198, 
+    "versionNumber": 0
+  }, 
+  "customMeta": {
+    "kv": {}
+  }, 
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "deps": [], 
+          "ref": "Asset_new_informations"
+        }
+      ]
+    }, 
+    "model": {
+      "items": [
+        {
+          "deps": [], 
+          "ref": "FMiENrMQ"
+        }
+      ]
+    }
+  }, 
+  "maxRunningActivities": 0, 
+  "neverRecomputeExistingPartitions": false, 
+  "optionalDependencies": false, 
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "appendMode": false, 
+          "ref": "Asset_new_informations_scored"
+        }
+      ]
+    }
+  }, 
+  "params": {}, 
+  "redispatchPartitioning": false, 
+  "tags": [], 
+  "type": "prediction_scoring", 
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    }, 
+    "lastModifiedOn": 1519404999938, 
+    "versionNumber": 1
+  }
+}

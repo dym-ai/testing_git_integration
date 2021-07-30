@@ -1,0 +1,21 @@
+{
+    "owner": "admin", 
+    "params": {
+        "datasetSmartName": "Assets_at_high_priority"
+    }, 
+    "name": "Assets_at_high_priority", 
+    "tags": [], 
+    "shortDesc": "", 
+    "checklists": {
+        "checklists": []
+    }, 
+    "listed": true, 
+    "type": "dataset_table", 
+    "creationTag": {
+        "lastModifiedBy": {
+            "login": "admin"
+        }, 
+        "lastModifiedOn": 1454938565006
+    }, 
+    "description": ""
+}

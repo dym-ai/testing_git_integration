@@ -1,0 +1,197 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": [
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "HEAD_SEQUENTIAL",
+          "maxRecords": 30000,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 0
+      },
+      "def": {
+        "type": "pie",
+        "variant": "normal",
+        "name": "failures proportions",
+        "userEditedName": true,
+        "genericDimension0": [
+          {
+            "column": "failure_bin",
+            "type": "NUMERICAL",
+            "numParams": {
+              "binSize": 100,
+              "emptyBinsMode": "ZEROS",
+              "mode": "TREAT_AS_ALPHANUM",
+              "nbBins": 10
+            },
+            "maxValues": 100,
+            "generateOthersCategory": false,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "sort": {
+              "label": "Count of records, ascending",
+              "measureIdx": 0,
+              "sortAscending": true,
+              "type": "AGGREGATION"
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "genericMeasures": [
+          {
+            "function": "COUNT",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": false,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": false,
+        "strokeWidth": 1,
+        "fillOpacity": 0.5,
+        "showXAxisLabel": false,
+        "showYAxisLabel": false,
+        "hexbinRadius": 20,
+        "hexbinNumber": 0,
+        "chartHeight": 0,
+        "singleXAxis": false,
+        "multiTooltips": false,
+        "animationFrameDuration": 0,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#659a88",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0
+        },
+        "computeMode": "NORMAL",
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 50.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "mapquest-std",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.6,
+          "gridLatDeg": 0.6
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACC0lEQVRoQ+2Xu0vDcBDHL2kRxL+hdBbcFFzt4ANadfCP0EEHsVjHrn04CQ6ddBKKVpEuouDkA1EnFydpi1J1cNc2P0kh0hZtcr+7i0PTNffI5773SA3os5/RZ7wQAEsofnDxEjVMc6c99urRbUcqUzWXnrLzjxL522OKKrx/WT8xDRj4DaIb2LFRYHxWM/FpKXAx4NJV/bzXS/8F7PhUMomYBLQIsBusDeIGbNtIQLMDe4H1CiwBzQrsFRYDzA3NBoyBxQJzQrMAl27eZqBppTBLxssMt8ezLGO3lot3nDZMPseWB9hlI2POUi8IjiVGBj68fh9VqpnHVhurcCu+pdYqudl7bC7WDw/s7DrJtYAZThVZ4b4CLhZVKBx5PdNpMW2FB4cmIR1r6OS0fUgK66qrc5baASnLKwDGtEqgMKJaujNM/eoitXQ0Ve75FxDBjzL9txkOgFE66RsHCiNqR5phmEiHo+Njp4h8ZNPKx/MUFBa/dAPRgAHA7zmmtDP5S8sO0HfAkWR5xAzBlm6LYfxUA5LVzcQdxqfbltzSfqpMbWeWlm4BbxwvgDKXKZV381XK2qtm5wpudm7PWRT2Q2UOddkUdqoqtcC4YNmBJZTmhBUB5oTmhhUD5oCWgBUFpkBLwYoD/yyz9fIwGLDd62RYTVip5RMPbmeF+pztLFFfxC//ANivSv9Xnm9cb9spkncAYQAAAABJRU5ErkJggg\u003d\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    }
+  ]
+}

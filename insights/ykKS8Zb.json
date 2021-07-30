@@ -1,0 +1,30 @@
+{
+  "type": "metrics",
+  "params": {
+    "objectSmartId": "Assets_at_high_priority",
+    "objectType": "DATASET",
+    "metricId": "records:COUNT_RECORDS"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Record count of Assets_at_high_priority",
+  "dashboardCreationId": "GGF9nHC",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486147048354
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486147048354
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

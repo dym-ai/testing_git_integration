@@ -1,0 +1,72 @@
+{
+  "modalitySlugification": "NONE",
+  "identifierColumnsSelection": "EXPLICIT",
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL",
+      "inheritConf": "default"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "pipelineAllowStart": true,
+      "overwriteOutputSchema": false,
+      "readParams": {
+        "map": {}
+      },
+      "useGlobalMetastore": false
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true
+  },
+  "pivots": [
+    {
+      "topnLimit": 20,
+      "valueColumns": [
+        {
+          "min": false,
+          "max": false,
+          "last": false,
+          "count": false,
+          "sum": true,
+          "type": "int",
+          "concat": false,
+          "column": "Quantity",
+          "countDistinct": false,
+          "$agg": "sum",
+          "stddev": false,
+          "avg": false,
+          "first": false
+        }
+      ],
+      "explicitValues": [],
+      "valueLimit": "NO_LIMIT",
+      "globalCount": false,
+      "minOccLimit": 0,
+      "keyColumns": [
+        "Reason"
+      ]
+    }
+  ],
+  "computedColumns": [],
+  "sortModalities": true,
+  "enginesPreferences": {},
+  "customAggregates": [],
+  "otherColumns": [],
+  "preFilter": {
+    "enabled": false,
+    "distinct": false
+  },
+  "schemaComputation": "ONLY_IF_NO_METADATA",
+  "explicitIdentifiers": [
+    "Asset"
+  ]
+}
