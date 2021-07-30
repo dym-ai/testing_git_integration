@@ -6,28 +6,51 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Asset",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Asset",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Asset",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Time_begin_exploitation",
+      "type": "int",
       "table": 0
     },
     {
       "name": "Initial_km",
+      "type": "double",
       "table": 0
     },
     {
       "name": "nb_km",
+      "type": "double",
       "table": 0
     },
     {
       "name": "failure_bin",
+      "type": "int",
       "table": 1
     }
   ],
@@ -85,5 +108,35 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Asset",
+            "type": "string"
+          },
+          {
+            "name": "Time_begin_exploitation",
+            "type": "int"
+          },
+          {
+            "name": "Initial_km",
+            "type": "double"
+          },
+          {
+            "name": "nb_km",
+            "type": "double"
+          },
+          {
+            "name": "failure_bin",
+            "type": "int"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
