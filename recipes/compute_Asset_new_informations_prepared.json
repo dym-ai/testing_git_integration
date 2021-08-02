@@ -11,6 +11,9 @@
           "map": {
             "Asset_new_informations": {
               "repartition": 10
+            },
+            "Asset_new_informations_copy": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627948363722
+    "lastModifiedOn": 1627948369940
   },
   "creationTag": {
     "versionNumber": 0,
