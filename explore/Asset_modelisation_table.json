@@ -5,7 +5,27 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "Asset": 100,
+      "failure_bin": 100,
+      "Time_begin_exploitation": 188,
+      "Initial_km": 141,
+      "nb_km": 141,
+      "R044_Quantity_sum": 143,
+      "R064_Quantity_sum": 143,
+      "R119_Quantity_sum": 143,
+      "R193_Quantity_sum": 143,
+      "R364_Quantity_sum": 143,
+      "R396_Quantity_sum": 143,
+      "R417_Quantity_sum": 143,
+      "R446_Quantity_sum": 143,
+      "R565_Quantity_sum": 143,
+      "R575_Quantity_sum": 143,
+      "R606_Quantity_sum": 143,
+      "R707_Quantity_sum": 143,
+      "R782_Quantity_sum": 143,
+      "R783_Quantity_sum": 143
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -34,13 +54,15 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
