@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627661378584
+    "lastModifiedOn": 1627948557703
   },
   "creationTag": {
     "versionNumber": 0,
@@ -94,6 +94,18 @@
       {
         "name": "Asset",
         "type": "string"
+      },
+      {
+        "name": "Time_begin_exploitation",
+        "type": "bigint"
+      },
+      {
+        "name": "nb_km",
+        "type": "double"
+      },
+      {
+        "name": "Initial_km",
+        "type": "double"
       },
       {
         "name": "R417_Quantity_sum",
@@ -154,18 +166,6 @@
       {
         "name": "Quantity_sum",
         "type": "bigint"
-      },
-      {
-        "name": "Time_begin_exploitation",
-        "type": "bigint"
-      },
-      {
-        "name": "Initial_km",
-        "type": "double"
-      },
-      {
-        "name": "nb_km",
-        "type": "double"
       },
       {
         "name": "proba_0",
