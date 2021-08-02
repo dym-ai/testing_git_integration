@@ -29,16 +29,1286 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "xColumns": [
+          {
+            "name": "R417_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R707_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R193_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R565_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R783_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R364_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R446_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R119_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R044_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R575_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R606_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R064_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R396_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R782_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Time_begin_exploitation",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Initial_km",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "nb_km",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R417_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R417_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "h5Jhnam"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R417_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "WtQQjBu"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R417_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Z105e3t"
+              }
+            ],
+            "id": "1ha7lhZ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R707_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R707_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ftJECTC"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R707_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "3Xgk3t3"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R707_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "nFCsysm"
+              }
+            ],
+            "id": "NEy8bTp"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R193_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R193_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "lNS1C7T"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R193_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rcUBBc1"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R193_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "B24OAMo"
+              }
+            ],
+            "id": "fcKVIZZ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R565_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R565_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "T8IBJ7W"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R565_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rkkBoRY"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R565_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "IU3egGO"
+              }
+            ],
+            "id": "g03ZHAl"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R783_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R783_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "F6xHjjy"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R783_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XKVwsx1"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R783_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "67dR1gd"
+              }
+            ],
+            "id": "uH3F2kq"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R364_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R364_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "9ptpnbh"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R364_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "kGVZcae"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R364_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "A40u4Yo"
+              }
+            ],
+            "id": "2DuTNKv"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R446_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R446_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "avs9Mir"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R446_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ha6xdIB"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R446_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "YmQDHzN"
+              }
+            ],
+            "id": "w27mMiD"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R119_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R119_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "hoMYAv8"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R119_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "nX6j485"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R119_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "9ZEwxIn"
+              }
+            ],
+            "id": "Cu2gfdi"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R044_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R044_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ILiJtqG"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R044_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CFGPECX"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R044_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "cAYxrN9"
+              }
+            ],
+            "id": "VQs3hm6"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R575_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R575_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "dhFyxjs"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R575_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "hPwaxFY"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R575_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "arTwFYB"
+              }
+            ],
+            "id": "eFsxgmy"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R606_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R606_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "7eQlnBf"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R606_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "W8Ny6SD"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R606_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "3FnRGmF"
+              }
+            ],
+            "id": "jTnD2Vw"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R064_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R064_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "i8S2RJ2"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R064_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "C3R0Gzd"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R064_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "HqdqUOo"
+              }
+            ],
+            "id": "3Vl9XKb"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R396_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R396_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CVBzzRc"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R396_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "zhTnOgi"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R396_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "jzWGc2L"
+              }
+            ],
+            "id": "98EZzoQ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "R782_Quantity_sum",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "R782_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "8DgCLSx"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "R782_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "m9zx6Cg"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "R782_Quantity_sum",
+                  "type": "CONTINUOUS"
+                },
+                "id": "17QHf7K"
+              }
+            ],
+            "id": "Ax0tumn"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Time_begin_exploitation",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Time_begin_exploitation",
+                  "type": "CONTINUOUS"
+                },
+                "id": "IiLQutE"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Time_begin_exploitation",
+                  "type": "CONTINUOUS"
+                },
+                "id": "JTB9q5d"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Time_begin_exploitation",
+                  "type": "CONTINUOUS"
+                },
+                "id": "LreTlyQ"
+              }
+            ],
+            "id": "wYTDmMP"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Initial_km",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Initial_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "5jQeF8P"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Initial_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "56nFLqy"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Initial_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ORH8eIm"
+              }
+            ],
+            "id": "7h583vJ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "nb_km",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "nb_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Ab68pqk"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "nb_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "37pPJB0"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "nb_km",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ChhnVrn"
+              }
+            ],
+            "id": "9ggzPXw"
+          }
+        ],
+        "id": "hOJkncf"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "R417_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R707_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R193_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R565_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R783_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R364_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R446_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R119_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R044_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R575_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R606_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R064_Quantity_sum",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "R396_Quantity_sum",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "SntyLFI"
+      }
+    ],
     "id": "1IjTdbS"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627661159190
+    "lastModifiedOn": 1627883766973
   },
   "creationTag": {
     "versionNumber": 0,
