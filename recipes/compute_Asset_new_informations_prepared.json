@@ -54,7 +54,7 @@
     "main": {
       "items": [
         {
-          "ref": "Asset_new_informations",
+          "ref": "Asset_new_informations_copy",
           "deps": []
         }
       ]
@@ -72,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627947827631
+    "lastModifiedOn": 1627948363722
   },
   "creationTag": {
     "versionNumber": 0,
