@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627661378582
+    "lastModifiedOn": 1627880611692
   },
   "creationTag": {
     "versionNumber": 0,
@@ -97,7 +97,7 @@
       },
       {
         "name": "failure_bin",
-        "type": "int"
+        "type": "boolean"
       },
       {
         "name": "Time_begin_exploitation",
