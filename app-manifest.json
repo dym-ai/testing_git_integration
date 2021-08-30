@@ -11,7 +11,12 @@
     "exportAllInputManagedFolders": false,
     "exportInsightsData": false,
     "includedDatasetsData": [],
-    "includedSavedModels": [],
+    "includedSavedModels": [
+      {
+        "id": "FMiENrMQ",
+        "name": "Predict failure v1"
+      }
+    ],
     "includedManagedFolders": [],
     "includedModelEvaluationStores": [],
     "exportGitRepository": false
@@ -29,8 +34,20 @@
   "tags": [],
   "useAsRecipeSettings": {
     "icon": "icon-dku-application-as-recipe",
-    "inputRoles": [],
-    "outputRoles": [],
+    "inputRoles": [
+      {
+        "objectId": "Asset_new_informations_prepared",
+        "roleLabel": "Input",
+        "type": "DATASET"
+      }
+    ],
+    "outputRoles": [
+      {
+        "objectId": "Asset_new_informations_scored",
+        "roleLabel": "Output 2",
+        "type": "DATASET"
+      }
+    ],
     "variablesEditionTile": {
       "behavior": "MODAL",
       "params": [
@@ -84,7 +101,9 @@
         }
       ]
     },
-    "runScenarioTile": {}
+    "runScenarioTile": {
+      "scenarioId": "Weekly_Run"
+    }
   },
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
 }
