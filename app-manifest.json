@@ -1,0 +1,90 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportModelEvaluationStores": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [],
+  "label": "Predictive Maintenance",
+  "shortDesc": "The template *Predictive Maintenance* was created by Administrator on Aug 30th 2021",
+  "tags": [],
+  "useAsRecipeSettings": {
+    "icon": "icon-dku-application-as-recipe",
+    "inputRoles": [],
+    "outputRoles": [],
+    "variablesEditionTile": {
+      "behavior": "MODAL",
+      "params": [
+        {
+          "name": "variable1",
+          "type": "STRING",
+          "label": "nice label in the form",
+          "description": "Help text for the variable",
+          "mandatory": false,
+          "canSelectForeign": false,
+          "markCreatedAsBuilt": false,
+          "allowDuplicates": true,
+          "getChoicesFromPython": false,
+          "canCreateDataset": false
+        },
+        {
+          "name": "variable2",
+          "type": "INT",
+          "label": "another label",
+          "mandatory": false,
+          "canSelectForeign": false,
+          "markCreatedAsBuilt": false,
+          "allowDuplicates": true,
+          "getChoicesFromPython": false,
+          "canCreateDataset": false
+        },
+        {
+          "name": "variable3",
+          "type": "SELECT",
+          "label": "some selector",
+          "mandatory": false,
+          "canSelectForeign": false,
+          "markCreatedAsBuilt": false,
+          "allowDuplicates": true,
+          "selectChoices": [
+            {
+              "value": "val1",
+              "label": "First",
+              "showInColumnPreview": false,
+              "selected": false
+            },
+            {
+              "value": "val2",
+              "label": "Second",
+              "showInColumnPreview": false,
+              "selected": false
+            }
+          ],
+          "getChoicesFromPython": false,
+          "canCreateDataset": false
+        }
+      ]
+    },
+    "runScenarioTile": {}
+  },
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+}
