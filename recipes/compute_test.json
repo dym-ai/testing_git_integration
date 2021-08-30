@@ -1,0 +1,56 @@
+{
+  "type": "App_PROJECT_DKU_PREDICTIVE_MAINTENANCE",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "variables": {},
+    "keepInstance": false
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "Asset_new_informations_prepared": {
+      "items": [
+        {
+          "ref": "Asset_new_informations_prepared",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "Asset_new_informations_scored": {
+      "items": [
+        {
+          "ref": "test",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1630355233308
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1630355233308
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
