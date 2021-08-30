@@ -1,7 +1,44 @@
 {
   "name": "Test",
   "color": "#4B8021",
-  "items": [],
+  "items": [
+    {
+      "objectId": "score_Asset_new_informations",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_python_output",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "python_output",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Asset_new_informations_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "FMiENrMQ",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "split_Asset_new_informations_scored",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Assets_at_high_priority",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Assets_at_risk",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Predict_failure_v1",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
