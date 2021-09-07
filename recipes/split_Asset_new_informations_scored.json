@@ -8,6 +8,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -32,6 +34,7 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
     "versionNumber": 16,
     "lastModifiedBy": {
@@ -40,6 +43,7 @@
     "lastModifiedOn": 1519407865029
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

@@ -2,14 +2,18 @@
   "tags": {
     "sample_project": {},
     "within_dss:Use cases": {},
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "section:Basics": {},
     "downloads": {},
     "visual recipe": {},
     "dashboarding": {},
     "section:Use cases": {},
+    "recipe-editor": {},
     "sample": {},
     "gallery": {},
     "creator_admin": {},
-    "recipe-editor": {}
+    "deleted-recipe-editor": {}
   }
 }
