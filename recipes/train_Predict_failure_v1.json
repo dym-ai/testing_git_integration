@@ -1,49 +1,57 @@
 {
-  "checklists": {
-    "checklists": []
-  }, 
-  "creationTag": {
-    "lastModifiedBy": {
-      "login": "admin"
-    }, 
-    "lastModifiedOn": 1519404125795, 
-    "versionNumber": 0
-  }, 
+  "type": "prediction_training",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
   "customMeta": {
     "kv": {}
-  }, 
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
         {
-          "deps": [], 
-          "ref": "Asset_modelisation_table"
+          "ref": "Asset_modelisation_table",
+          "deps": []
         }
       ]
     }
-  }, 
-  "maxRunningActivities": 0, 
-  "neverRecomputeExistingPartitions": false, 
-  "optionalDependencies": false, 
+  },
   "outputs": {
     "main": {
       "items": [
         {
-          "appendMode": false, 
-          "ref": "FMiENrMQ"
+          "ref": "FMiENrMQ",
+          "appendMode": false
         }
       ]
     }
-  }, 
-  "params": {}, 
-  "redispatchPartitioning": false, 
-  "tags": [], 
-  "type": "prediction_training", 
+  },
+  "labels": [],
   "versionTag": {
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
-    }, 
-    "lastModifiedOn": 1519407813348, 
-    "versionNumber": 1
+    },
+    "lastModifiedOn": 1519407813348
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1519404125795
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
   }
 }
