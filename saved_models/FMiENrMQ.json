@@ -2,7 +2,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Predict failure v1",
-  "activeVersion": "1627949859761",
+  "activeVersion": "1631122124870",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -14,7 +14,7 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
-  "lastExportedFrom": "A-DKU_PREDICTIVE_MAINTENANCE-LgCJtu6p-GS1w4GaW-s5-pp1-m1",
+  "lastExportedFrom": "A-PREDICTIVE_MAINTENANCE_TEST-LgCJtu6p-GS1w4GaW-s7-pp2-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -115,8 +115,8 @@
             8
           ],
           "range": {
-            "min": 5,
-            "max": 10,
+            "min": 10,
+            "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -128,15 +128,16 @@
             "min": 1
           },
           "values": [
-            3
+            1
           ],
           "range": {
-            "min": 3,
+            "min": 1,
             "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -144,7 +145,7 @@
             "min": 1
           },
           "values": [
-            0
+            5
           ],
           "range": {
             "min": 1,
@@ -200,8 +201,8 @@
             8
           ],
           "range": {
-            "min": 5,
-            "max": 10,
+            "min": 6,
+            "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -213,15 +214,16 @@
             "min": 1
           },
           "values": [
-            3
+            1
           ],
           "range": {
-            "min": 3,
+            "min": 1,
             "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -229,7 +231,7 @@
             "min": 1
           },
           "values": [
-            0
+            5
           ],
           "range": {
             "min": 1,
@@ -265,11 +267,11 @@
             "min": 1
           },
           "values": [
-            30
+            100
           ],
           "range": {
-            "min": 10,
-            "max": 50,
+            "min": 50,
+            "max": 150,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -285,8 +287,8 @@
             8
           ],
           "range": {
-            "min": 5,
-            "max": 10,
+            "min": 6,
+            "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -298,15 +300,16 @@
             "min": 1
           },
           "values": [
-            3
+            1
           ],
           "range": {
-            "min": 3,
+            "min": 1,
             "max": 20,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -314,7 +317,7 @@
             "min": 1
           },
           "values": [
-            0
+            5
           ],
           "range": {
             "min": 1,
@@ -354,7 +357,7 @@
           ],
           "range": {
             "min": 80,
-            "max": 200,
+            "max": 300,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -370,7 +373,7 @@
           ],
           "range": {
             "min": 3,
-            "max": 8,
+            "max": 10,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -382,7 +385,7 @@
             "min": 1
           },
           "values": [
-            3
+            1
           ],
           "range": {
             "min": 1,
@@ -391,6 +394,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -443,11 +447,11 @@
         },
         "loss": {
           "values": {
-            "exponential": {
-              "enabled": false
-            },
             "deviance": {
               "enabled": true
+            },
+            "exponential": {
+              "enabled": false
             }
           }
         },
@@ -465,7 +469,7 @@
           ],
           "range": {
             "min": 80,
-            "max": 200,
+            "max": 300,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -481,7 +485,7 @@
           ],
           "range": {
             "min": 3,
-            "max": 8,
+            "max": 10,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -493,7 +497,7 @@
             "min": 1
           },
           "values": [
-            3
+            1
           ],
           "range": {
             "min": 1,
@@ -502,6 +506,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -554,10 +559,10 @@
         },
         "loss": {
           "values": {
-            "lad": {
+            "huber": {
               "enabled": false
             },
-            "huber": {
+            "lad": {
               "enabled": false
             },
             "ls": {
@@ -579,7 +584,7 @@
           ],
           "range": {
             "min": 3,
-            "max": 8,
+            "max": 10,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -602,21 +607,21 @@
         },
         "criterion": {
           "values": {
-            "gini": {
-              "enabled": true
-            },
             "entropy": {
               "enabled": false
+            },
+            "gini": {
+              "enabled": true
             }
           }
         },
         "splitter": {
           "values": {
-            "random": {
-              "enabled": false
-            },
             "best": {
               "enabled": true
+            },
+            "random": {
+              "enabled": false
             }
           }
         },
@@ -634,7 +639,7 @@
           ],
           "range": {
             "min": 3,
-            "max": 8,
+            "max": 10,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -657,21 +662,21 @@
         },
         "criterion": {
           "values": {
-            "gini": {
-              "enabled": true
-            },
             "entropy": {
               "enabled": false
+            },
+            "gini": {
+              "enabled": true
             }
           }
         },
         "splitter": {
           "values": {
-            "random": {
-              "enabled": false
-            },
             "best": {
               "enabled": true
+            },
+            "random": {
+              "enabled": false
             }
           }
         },
@@ -792,11 +797,11 @@
       "sgd_classifier": {
         "loss": {
           "values": {
-            "modified_huber": {
-              "enabled": false
-            },
             "log": {
               "enabled": true
+            },
+            "modified_huber": {
+              "enabled": false
             }
           }
         },
@@ -805,11 +810,11 @@
             "elasticnet": {
               "enabled": false
             },
-            "l2": {
-              "enabled": false
-            },
             "l1": {
               "enabled": true
+            },
+            "l2": {
+              "enabled": false
             }
           }
         },
@@ -820,9 +825,9 @@
             "min": 1.0E-23
           },
           "values": [
-            0.1,
-            0.01,
-            0.001
+            0.001,
+            1.0E-4,
+            1.0E-5
           ],
           "range": {
             "min": 1.0E-5,
@@ -855,18 +860,20 @@
           }
         },
         "distance_weighting": false,
+        "algorithm": "auto",
         "p": 2,
         "leaf_size": 30,
         "enabled": false
       },
       "logistic_regression": {
+        "multi_class": "ovr",
         "penalty": {
           "values": {
-            "l2": {
-              "enabled": true
-            },
             "l1": {
               "enabled": false
+            },
+            "l2": {
+              "enabled": true
             }
           }
         },
@@ -951,13 +958,13 @@
         "gamma": {
           "values": {
             "auto": {
-              "enabled": true
-            },
-            "scale": {
               "enabled": false
             },
             "custom": {
               "enabled": false
+            },
+            "scale": {
+              "enabled": true
             }
           }
         },
@@ -979,14 +986,14 @@
         },
         "kernel": {
           "values": {
-            "rbf": {
-              "enabled": true
-            },
             "linear": {
               "enabled": false
             },
             "poly": {
               "enabled": false
+            },
+            "rbf": {
+              "enabled": true
             },
             "sigmoid": {
               "enabled": false
@@ -1081,8 +1088,8 @@
             3
           ],
           "range": {
-            "min": 2,
-            "max": 5,
+            "min": 3,
+            "max": 10,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -1127,11 +1134,11 @@
             "min": 0.0
           },
           "values": [
-            0.0
+            1.0
           ],
           "range": {
-            "min": 0.0,
-            "max": 1.0,
+            "min": 0.5,
+            "max": 5.0,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -1215,7 +1222,7 @@
           ],
           "range": {
             "min": 0.0,
-            "max": 0.1,
+            "max": 1.0,
             "nbValues": 3,
             "scaling": "LINEAR"
           }
@@ -1231,7 +1238,7 @@
             1.0
           ],
           "range": {
-            "min": 0.5,
+            "min": 0.01,
             "max": 1.0,
             "nbValues": 3,
             "scaling": "LINEAR"
@@ -1239,35 +1246,35 @@
         },
         "booster": {
           "values": {
-            "gbtree": {
-              "enabled": true
-            },
             "dart": {
               "enabled": false
+            },
+            "gbtree": {
+              "enabled": true
             }
           }
         },
         "objective": {
           "values": {
-            "reg_logistic": {
-              "enabled": false
-            },
-            "reg_linear": {
-              "enabled": true
-            },
-            "reg_gamma": {
-              "enabled": false
-            },
             "binary_logistic": {
               "enabled": false
             },
             "multi_softprob": {
               "enabled": false
+            },
+            "reg_gamma": {
+              "enabled": false
+            },
+            "reg_linear": {
+              "enabled": true
+            },
+            "reg_logistic": {
+              "enabled": false
             }
           }
         },
         "n_estimators": 300,
-        "nthread": -1,
+        "nthread": 4,
         "scale_pos_weight": 1.0,
         "base_score": 0.5,
         "impute_missing": false,
@@ -1444,7 +1451,7 @@
             "min": 1
           },
           "values": [
-            5
+            3
           ],
           "range": {
             "min": 3,
@@ -1473,7 +1480,7 @@
             "min": 1
           },
           "values": [
-            5
+            3
           ],
           "range": {
             "min": 3,
@@ -1535,7 +1542,7 @@
             "min": 1
           },
           "values": [
-            5
+            3
           ],
           "range": {
             "min": 3,
@@ -1621,7 +1628,7 @@
         "mode": "KFOLD",
         "splitRatio": 0.8,
         "shuffleIterations": 1,
-        "nFolds": 3,
+        "nFolds": 5,
         "cvSeed": 1337,
         "stratified": true,
         "strategy": "GRID",
@@ -1631,7 +1638,7 @@
         "nIter": 0,
         "nIterRandom": 10,
         "timeout": 0,
-        "nJobs": -1,
+        "nJobs": 4,
         "distributed": false,
         "nContainers": 4
       },
@@ -1697,6 +1704,10 @@
       "containerMode": "INHERIT"
     },
     "sparkParams": {
+      "sparkConf": {
+        "inheritConf": "default",
+        "conf": []
+      },
       "sparkUseGlobalMetastore": false,
       "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
       "sparkRepartitionNonHDFS": 1,
@@ -1776,11 +1787,11 @@
     "labels": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627950006427
+    "lastModifiedOn": 1631122125107
   },
   "creationTag": {
     "versionNumber": 0,
