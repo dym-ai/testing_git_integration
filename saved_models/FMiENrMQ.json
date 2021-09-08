@@ -2,7 +2,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Predict failure v1",
-  "activeVersion": "1627949859761",
+  "activeVersion": "1631121754011",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -14,7 +14,7 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
-  "lastExportedFrom": "A-DKU_PREDICTIVE_MAINTENANCE-LgCJtu6p-GS1w4GaW-s5-pp1-m1",
+  "lastExportedFrom": "A-PREDICTIVE_MAINTENANCE_TEST-LgCJtu6p-GS1w4GaW-s5-pp1-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -137,6 +137,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -222,6 +223,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -307,6 +309,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -391,6 +394,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -502,6 +506,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -855,11 +860,13 @@
           }
         },
         "distance_weighting": false,
+        "algorithm": "auto",
         "p": 2,
         "leaf_size": 30,
         "enabled": false
       },
       "logistic_regression": {
+        "multi_class": "ovr",
         "penalty": {
           "values": {
             "l2": {
@@ -1697,6 +1704,10 @@
       "containerMode": "INHERIT"
     },
     "sparkParams": {
+      "sparkConf": {
+        "inheritConf": "default",
+        "conf": []
+      },
       "sparkUseGlobalMetastore": false,
       "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
       "sparkRepartitionNonHDFS": 1,
@@ -1776,11 +1787,11 @@
     "labels": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1627950006427
+    "lastModifiedOn": 1631121922305
   },
   "creationTag": {
     "versionNumber": 0,
